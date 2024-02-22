@@ -1,0 +1,44 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.kill-team-list, .archetype-selection, .tac-ops-display {
+    background-color: #222;
+    border: 1px solid #ffa500;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #ffa500;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffa500;
+}
+
+.tac-ops-display {
+    display: none; /* Initially hidden */
+}
